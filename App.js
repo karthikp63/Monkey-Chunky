@@ -6,11 +6,12 @@ import {
   TextInput,
   TouchableOpacity,
   Image,
-  Alert
+  Alert,
 } from 'react-native';
 import { Header } from 'react-native-elements';
 import db from './localdb';
 import PhonicSoundButton from './components/PhonicSoundButton';
+
 
 export default class App extends React.Component {
   constructor() {
@@ -88,6 +89,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     borderWidth: 4,
     outline: 'none',
+    borderRadius: 20
+    //iugbadgfisgpdsohfuekajsrndg
   },
   goButton: {
     width: '50%',
